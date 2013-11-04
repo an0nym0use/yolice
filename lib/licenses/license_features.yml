@@ -1,0 +1,302 @@
+---
+features:
+  include-copyright:
+    name: License and copyright notice 
+    required: Include a copy of the license and copyright notice with the code.
+  document-changes:
+    name: State Changes
+    required: Indicate significant changes made to the code.
+  disclose-source:
+    name: Disclose source
+    required: Source code must be made available when distributing the software. In the case of LGPL, the source for the library (and not the entire program) must be made available.
+  library-usage:
+    name: Library usage
+    permitted: The library may be used within a non-open-source application.
+  rename: 
+    name: 
+    required: You must change the name of the software if you modify it.
+  commercial-use:
+    name: Commercial use
+    permitted: This software and derivatives may be used for commercial purposes.
+  modifications:
+    name: Modification
+    permitted: This software may be modified.
+    forbidden: This software may not be modified.
+  distribution:
+    name: Distribution
+    permitted: You may distribute this software.
+    forbidden: You may not distribute this software.
+  sublicense:
+    name: Sublicensing
+    permitted: You may grant a sublicense to modify and distribute this software to third parties not included in the license.
+    forbidden: You may not grant a sublicense to modify and distribute this software to third parties not included in the license.
+  private-use:
+    name: Private use
+    permitted: You may use and modify the software without distributing it.
+  patent-grant:
+    name: Patent Grant
+    permitted: This license provides an express grant of patent rights from the contributor to the recipient.
+  trademark-use:
+    name: Use trademark
+    forbidden: While this may be implicitly true of all licenses, this license explicitly states that you may NOT use the names, logos, or trademarks of contributors.
+  no-liability:
+    name: Hold liable
+    forbidden: Software is provided without warranty and the software author/license owner cannot be held liable for damages.
+
+licenses:
+  gpl_2:
+    - feature: include-copyright
+      permission: required
+    - feature: document-changes
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: forbidden
+  apache_2:
+    - feature: include-copyright
+      permission: required
+    - feature: document-changes
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+    - feature: trademark-use
+      permission: forbidden
+  mit:
+    - feature: include-copyright
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+  bsd_2_clause:
+    - feature: include-copyright
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+  affero_gpl:
+    - feature: include-copyright
+      permission: required
+    - feature: document-changes
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: forbidden
+  eclipse_v1:
+    - feature: include-copyright
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+  public_domain:
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+  lgpl_3:
+    - feature: include-copyright
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: library-usage
+      permission: permitted
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+  gpl_3:
+    - feature: include-copyright
+      permission: required
+    - feature: document-changes
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: forbidden
+  mozilla_2:
+    - feature: include-copyright
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+    - feature: trademark-use
+      permission: forbidden
+  bsd_3_clause:
+    - feature: include-copyright
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+    - feature: trademark-use
+      permission: forbidden
+  no-license:
+    - feature: include-copyright
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: modifications
+      permission: forbidden
+    - feature: distribution
+      permission: forbidden
+    - feature: sublicense
+      permission: forbidden
+  lgpl_2_1:
+    - feature: include-copyright
+      permission: required
+    - feature: disclose-source
+      permission: required
+    - feature: library-usage
+      permission: permitted
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: patent-grant
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+  artistic:
+    - feature: include-copyright
+      permission: required
+    - feature: document-changes
+      permission: required
+    - feature: commercial-use
+      permission: permitted
+    - feature: modifications
+      permission: permitted
+    - feature: distribution
+      permission: permitted
+    - feature: private-use
+      permission: permitted
+    - feature: no-liability
+      permission: forbidden
+    - feature: sublicense
+      permission: permitted
+    - feature: trademark-use
+      permission: forbidden
